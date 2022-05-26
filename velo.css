@@ -43,7 +43,7 @@ p{
       }
 .title{
 font-family: 'libre baskerville'!important;
-font-size: 9rem!important;
+font-size: 5rem!important;
 padding:1rem!important;
 margin:1rem!important;
 justify-content: center!important;
@@ -53,7 +53,7 @@ transition: 1s;
 }
 .title:hover{
   font-family: 'libre baskerville'!important;
-  font-size: 8.8rem!important;
+  font-size: 5rem!important;
   padding:1rem!important;
   margin:1rem!important;
   justify-content: center!important;
@@ -63,7 +63,7 @@ transition: 1s;
   }
   .title:after{
     font-family: 'libre baskerville'!important;
-    font-size: 8.8rem!important;
+    font-size: 5rem!important;
     padding:1rem!important;
     margin:1rem!important;
     justify-content: center!important;
