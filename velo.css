@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
+
+body{
+background-color:rgba(10,10,10,1)!important;
+border-color:transparent !important;
+color: rgb(255, 255, 255)!important;
+}
+i{
+  color: rgb(255, 255, 255);
+}
+p{
+  font-size: 1.05em !important;
+  text-decoration: none !important;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    }
+
+    .song{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      transition: .5s;
+      }
+      .song:hover{
+        text-decoration: none;
+        color: rgba(255,255,255,1);;
+        transition: .5s;
+        }
+        .song:after{
+          text-decoration: none;
+          color: rgba(255,255,255,1);;
+          transition: .5s;
+          }
+          .song:visited{
+            text-decoration: none;
+            color: rgba(255,255,255,1);;
+            transition: .5s;
+            }
+      .row{
+        margin:5rem;
+      }
+.title{
+font-family: 'libre baskerville'!important;
+font-size: 9rem!important;
+padding:1rem!important;
+margin:1rem!important;
+justify-content: center!important;
+color: rgb(255, 255, 255)!important;
+padding-bottom: 10rem!important;
+transition: 1s;
+}
+.title:hover{
+  font-family: 'libre baskerville'!important;
+  font-size: 8.8rem!important;
+  padding:1rem!important;
+  margin:1rem!important;
+  justify-content: center!important;
+  color: rgb(255, 255, 255,.1)!important;
+  padding-bottom: 10rem!important;
+  transition: .5s;
+  }
+  .title:after{
+    font-family: 'libre baskerville'!important;
+    font-size: 8.8rem!important;
+    padding:1rem!important;
+    margin:1rem!important;
+    justify-content: center!important;
+    color: rgb(255, 255, 255,.1)!important;
+    padding-bottom: 10rem!important;
+    transition: .5s;
+    }
+
+    .quad{
+      font-family: 'libre baskerville'!important;
+      font-size: 1.25rem!important;
+      padding:2rem!important;
+      margin:2rem!important;
+      justify-content: center!important;
+      color: rgb(255, 255, 255)!important;
+      padding-bottom: 10rem!important;
+      padding-top: 10rem!important;
+      transition: 1s;
+      }
+
+.social-velo{
+width:8em!important;
+height:8em!important;
+padding:.5em;
+margin:.5em;
+opacity:1;
+transition: 1s;
+font-size: .51em;
+font-family: Arial, Helvetica, sans-serif;
+}
+.social-velo:hover{
+  width:8em!important;
+  height:8em!important;
+  padding:.5em;
+  margin:.5em;
+  opacity:.5;
+  transition: 1s;
+  }
+
+
+  .image{
+    opacity:1;
+  transition: 1s;
+  }
+  .image:hover{
+    opacity:.5;
+  transition: .5s;
+  }
