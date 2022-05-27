@@ -6,19 +6,28 @@ background-color:rgb(255, 255, 255)!important;
 border-color:transparent !important;
 color: rgba(10,10,10,1)!important;  
 }
+footer{
+  color: rgb(255, 255, 255)!important; 
+  background-color:rgb(0, 0, 0)!important;
+}
 i{
   color: rgba(10,10,10,1)!important;  
 }
 p{
-  font-size: .85em !important;
+  font-size: .75em !important;
+  color: rgb(0, 0, 0)!important; 
   text-decoration: none !important;
   }
+  .footy{
+    font-size: .75em !important;
+    color: rgb(255, 255, 255)!important; 
+    text-decoration: none !important;
+    }
   a{
     text-decoration: none;
     color: rgba(10,10,10,1)!important;  
     font-size: 1em;
     }
-
     .song{
       text-decoration: none;
       color: rgba(10,10,10,1)!important;  
@@ -45,7 +54,7 @@ p{
 .title{
   font-family: 'Cinzel', serif;
   font-weight: 900;
-font-size: 8rem!important;
+  font-size: 6rem!important;
 padding:1rem!important;
 margin:1rem!important;
 justify-content: center!important;
@@ -58,7 +67,7 @@ position: absolute;
 .title:hover{
   font-family: 'Cinzel', serif;
   font-weight: 900;
-font-size: 8rem!important;
+  font-size: 6rem!important;
   padding:1rem!important;
   margin:1rem!important;
   justify-content: center!important;
@@ -71,7 +80,7 @@ font-size: 8rem!important;
   .title:after{
     font-family: 'Cinzel', serif;
     font-weight: 900;
-font-size: 8rem!important;
+    font-size: 6rem!important;
     padding:1rem!important;
     margin:1rem!important;
     justify-content: center!important;
@@ -102,6 +111,7 @@ opacity:1;
 transition: 1s;
 font-size: .51em;
 font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255)!important; 
 }
 .social-velo:hover{
   width:8em!important;
@@ -110,6 +120,7 @@ font-family: Arial, Helvetica, sans-serif;
   margin:.5em;
   opacity:.5;
   transition: 1s;
+  color: rgb(255, 255, 255)!important; 
   }
 
 .image{
@@ -121,4 +132,8 @@ font-family: Arial, Helvetica, sans-serif;
     width: 30em!important;
     opacity:1;
   transition: .5s;
+  }
+  .prosa{
+  padding:2em;
+  margin:2em;
   }
