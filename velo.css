@@ -45,7 +45,7 @@ p{
 .title{
   font-family: 'Cinzel', serif;
   font-weight: 900;
-font-size: 10rem!important;
+font-size: 8rem!important;
 padding:1rem!important;
 margin:1rem!important;
 justify-content: center!important;
@@ -58,7 +58,7 @@ position: absolute;
 .title:hover{
   font-family: 'Cinzel', serif;
   font-weight: 900;
-  font-size: 10rem!important;
+font-size: 8rem!important;
   padding:1rem!important;
   margin:1rem!important;
   justify-content: center!important;
@@ -71,7 +71,7 @@ position: absolute;
   .title:after{
     font-family: 'Cinzel', serif;
     font-weight: 900;
-    font-size: 10rem!important;
+font-size: 8rem!important;
     padding:1rem!important;
     margin:1rem!important;
     justify-content: center!important;
