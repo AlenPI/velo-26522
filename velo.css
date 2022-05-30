@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;900&family=Marcellus+SC&display=swap');
 
 body{
 background-color:rgb(255, 255, 255)!important;
@@ -52,8 +52,7 @@ p{
         margin:5rem;
       }
 .title{
-  font-family: 'Cinzel', serif;
-  font-weight: 900;
+  font-family: 'Marcellus SC', serif;
   font-size: 6rem!important;
 padding:1rem!important;
 margin:1rem!important;
@@ -65,8 +64,7 @@ opacity: 1;
 position: absolute;
 }
 .title:hover{
-  font-family: 'Cinzel', serif;
-  font-weight: 900;
+  font-family: 'Marcellus SC', serif;
   font-size: 6rem!important;
   padding:1rem!important;
   margin:1rem!important;
@@ -78,8 +76,7 @@ position: absolute;
   position: absolute;
   }
   .title:after{
-    font-family: 'Cinzel', serif;
-    font-weight: 900;
+    font-family: 'Marcellus SC', serif;
     font-size: 6rem!important;
     padding:1rem!important;
     margin:1rem!important;
