@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;900&family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;900&display=swap');
 
 body{
 background-color:rgb(255, 255, 255)!important;
@@ -7,21 +7,28 @@ border-color:transparent !important;
 color: rgba(10,10,10,1)!important;  
 }
 footer{
-  color: rgb(255, 255, 255)!important; 
-  background-color:rgb(0, 0, 0)!important;
+  color: rgb(0, 0, 0)!important; 
+  background-color:rgb(255, 255, 255)!important;
+}
+hr{
+  font-size: .95em !important;
+  color: rgb(0, 0, 0,.25)!important; 
 }
 i{
   color: rgba(10,10,10,1)!important;  
 }
 p{
-  font-size: .75em !important;
+  font-size: .95em !important;
   color: rgb(0, 0, 0)!important; 
   text-decoration: none !important;
+  text-align: left!important;
   }
   .footy{
-    font-size: .75em !important;
-    color: rgb(255, 255, 255)!important; 
+    font-family: 'Libre Baskerville', serif!important;
+    font-size: .95em !important;
+    color: rgb(0, 0, 0)!important; 
     text-decoration: none !important;
+    text-align: center!important;
     }
   a{
     text-decoration: none;
@@ -49,39 +56,51 @@ p{
             transition: .5s;
             }
       .row{
-        margin:5rem;
+        margin:.21rem!important;
+        margin:.21rem!important;
       }
 .title{
-  font-family: 'Marcellus SC', serif;
-  font-size: 6rem!important;
+  font-family: 'Cinzel', serif!important;
+  font-size: 8rem!important;
 padding:1rem!important;
 margin:1rem!important;
 justify-content: center!important;
-color: rgba(10,10,10,1)!important;  
+color: rgb(190, 190, 190)!important;  
 padding-bottom: 10rem!important;
 transition: 1s;
 opacity: 1;
 position: absolute;
 }
+.subtitle{
+  font-family: 'Cinzel', serif!important;
+  font-size: 2rem!important;
+padding:1rem!important;
+margin:1rem!important;
+justify-content: center!important;
+color: rgb(190, 190, 190)!important;  
+padding-bottom: 10rem!important;
+transition: 1s;
+opacity: 1;
+}
 .title:hover{
-  font-family: 'Marcellus SC', serif;
-  font-size: 6rem!important;
+  font-family: 'Cinzel', serif!important;
+  font-size: 8rem!important;
   padding:1rem!important;
   margin:1rem!important;
   justify-content: center!important;
-  color: rgb(255, 255, 255,.1)!important;
+  color: rgba(0, 0, 0, 0.79)!important;
   padding-bottom: 10rem!important;
   transition: .5s;
   opacity: 1;
   position: absolute;
   }
   .title:after{
-    font-family: 'Marcellus SC', serif;
-    font-size: 6rem!important;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 8rem!important;
     padding:1rem!important;
     margin:1rem!important;
     justify-content: center!important;
-    color: rgb(255, 255, 255,.1)!important;
+    color: rgb(255, 255, 255,.001)!important;
     padding-bottom: 10rem!important;
     transition: .5s;
     opacity: 1;
@@ -89,13 +108,14 @@ position: absolute;
     }
 
     .quad{
-      font-family: 'libre baskerville'!important;
+      font-family: Arial, Helvetica, sans-serif!important;
       font-size: 1.25rem!important;
+      text-justify: auto!important;
+      text-align: center!important;
       padding:1rem!important;
       margin:1rem!important;
-      justify-content: center!important;
       color: rgba(10,10,10,1)!important;  
-      padding-bottom: 10rem!important;
+      padding-bottom: 6.6rem!important;
       transition: 1s;
       }
 
@@ -103,19 +123,29 @@ position: absolute;
 width:8em!important;
 height:8em!important;
 padding:.5em;
+text-align: center!important;
+text-align: center!important;
 margin:.5em;
-opacity:1;
+opacity:.5;
 transition: 1s;
 font-size: .51em;
 font-family: Arial, Helvetica, sans-serif;
 color: rgb(255, 255, 255)!important; 
 }
+.social-title{
+  font-size: 1.5em!important;
+  text-align: center!important;
+  font-family: 'Libre Baskerville', serif!important;
+  color: rgb(5, 5, 5,1)!important; 
+  }
 .social-velo:hover{
+  text-align: center!important;
   width:8em!important;
   height:8em!important;
+  align-items: center!important;
   padding:.5em;
   margin:.5em;
-  opacity:.5;
+  opacity:.90;
   transition: 1s;
   color: rgb(255, 255, 255)!important; 
   }
@@ -131,6 +161,9 @@ color: rgb(255, 255, 255)!important;
   transition: .5s;
   }
   .prosa{
-  padding:2em;
-  margin:2em;
+  font-family: 'Libre Baskerville', serif!important;
+  padding:1em;
+  text-justify: auto!important;
+  margin:1em;
+  text-align:center!important;
   }
